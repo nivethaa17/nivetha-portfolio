@@ -1,0 +1,153 @@
+export const projects = [
+  {
+    id: 1,
+    title: "BlogVerse",
+    subtitle: "AI-Powered Blogging Platform",
+    description: "An intelligent blogging platform with role-based access control and AI-driven reader tools. Features smart article summaries, automated comment moderation, and personalized content recommendations.",
+    fullDescription: "BlogVerse is a full-stack AI-powered blogging platform designed to enhance both the writing and reading experience. It features role-based access control for admins, authors, and readers. Intelligent tools include AI-generated article summaries for quick consumption, automated comment moderation to filter spam and toxic content, and a personalized recommendation engine that tailors content feeds based on reading history and preferences.",
+    tech: ["Next.js", "React", "Node.js", "AI/ML", "Firebase", "Tailwind CSS"],
+    color: "#22c55e",
+    icon: "✍️",
+    github: "https://github.com/nivethaa17",
+    demo: "",
+    category: "Full Stack",
+  },
+  {
+    id: 2,
+    title: "Climate Guard",
+    subtitle: "Solar Potential Forecasting System",
+    description: "A full-stack IoT-based environmental monitoring system with a React dashboard showing real-time humidity and sunlight data to forecast solar energy potential.",
+    fullDescription: "Climate Guard is an end-to-end IoT environmental monitoring solution. Hardware sensors continuously capture humidity, temperature, and solar irradiance data, which is transmitted to a cloud backend. The React dashboard presents this data in real-time with interactive charts and visualizations. The forecasting engine uses collected data to predict solar energy generation potential, helping optimize renewable energy usage decisions.",
+    tech: ["React", "IoT", "Node.js", "SQL", "Firebase", "Chart.js"],
+    color: "#f59e0b",
+    icon: "☀️",
+    github: "https://github.com/nivethaa17",
+    demo: "",
+    category: "Full Stack + IoT",
+  },
+  {
+    id: 3,
+    title: "YatriRakshak",
+    subtitle: "Smart Safety Tourist System",
+    description: "Flutter & Firebase-based tourist safety app with SOS alerts, geofencing, live tracking, and emergency services integration.",
+    fullDescription: "YatriRakshak is a comprehensive tourist safety mobile application built with Flutter and Firebase. Key features include one-tap SOS emergency alerts that notify local authorities and emergency contacts, geofencing that triggers warnings when tourists venture into unsafe zones, live GPS tracking shared with family members, and integration with local emergency services. Google Maps provides accurate navigation and location awareness, while secure Firebase authentication protects user data.",
+    tech: ["Flutter", "Firebase", "Google Maps API", "Dart", "Geofencing", "Real-time DB"],
+    color: "#3b82f6",
+    icon: "🛡️",
+    github: "https://github.com/nivethaa17",
+    demo: "",
+    category: "Mobile App",
+    status: "Ongoing",
+  },
+  {
+    id: 4,
+    title: "AR Healthcare App",
+    subtitle: "Augmented Reality Medical Education",
+    description: "A multi-level AR educational app with interactive CPR tutorials, fitness modules, and germ-shooting mini-games. Features AR visualization of medical tools with informative overlays.",
+    fullDescription: "AR Healthcare App is an immersive educational application that leverages augmented reality to teach medical concepts in an engaging way. The CPR module guides users through proper technique with AR body overlays. The fitness module demonstrates exercises with 3D form guidance. The germ-shooting game makes learning about pathogens interactive. Medical tools appear as AR objects with informative pop-up overlays explaining their function, making medical education accessible and engaging.",
+    tech: ["Unity", "AR Foundation", "C#", "Vuforia", "Android Studio", "3D Modeling"],
+    color: "#a855f7",
+    icon: "🏥",
+    github: "https://github.com/nivethaa17",
+    demo: "",
+    category: "AR/VR",
+  },
+  {
+    id: 5,
+    title: "Unity 2D Mini Games",
+    subtitle: "Collection of Polished 2D Games",
+    description: "Multiple Unity 2D games including Tic Tac Toe, endless runner, and shooting games with player controls, score systems, and Firebase-based leaderboards.",
+    fullDescription: "A collection of polished Unity 2D games showcasing game development fundamentals. Tic Tac Toe features an AI opponent with minimax algorithm. The endless runner includes procedurally generated obstacles, power-ups, and a progressive difficulty system. The shooting game features wave-based enemy AI, particle effects, and responsive controls. All games share a Firebase-backed global leaderboard system with real-time score updates.",
+    tech: ["Unity", "C#", "Firebase", "2D Animation", "Particle System", "AI"],
+    color: "#ef4444",
+    icon: "🎮",
+    github: "https://github.com/nivethaa17",
+    demo: "",
+    category: "Game Dev",
+  },
+];
+
+export const skills = [
+  {
+    category: "Frontend",
+    icon: "🎨",
+    items: ["React", "HTML/CSS", "JavaScript", "Figma", "UI/UX Design"],
+  },
+  {
+    category: "Backend",
+    icon: "⚙️",
+    items: ["Node.js", "Firebase", "REST APIs", "Authentication"],
+  },
+  {
+    category: "Game Development",
+    icon: "🎮",
+    items: ["Unity", "C#", "2D & 3D Game Dev", "AR Foundation", "Vuforia", "Particle Systems", "Game AI"],
+  },
+  {
+    category: "Mobile",
+    icon: "📱",
+    items: ["Flutter", "Android Studio", "Firebase Mobile", "Google Maps API", "Dart"],
+  },
+  {
+    category: "Languages & Tools",
+    icon: "🛠️",
+    items: ["C", "C#", "JavaScript", "Dart", "VS Code", "Figma"],
+  },
+];
+
+export const internships = [
+  {
+    title: "Game Development Intern",
+    company: "Synnoviq Technologies Pvt LTD",
+    location: "Kovilpatti",
+    duration: "March 2025 – April 2025",
+    description: "Worked on Unity-based game development projects, building 2D games with C# scripting, physics systems, and Firebase integration for leaderboards.",
+    icon: "🎮",
+    color: "#22c55e",
+  },
+  {
+    title: "Web Development Intern",
+    company: "TechnoHacks",
+    location: "Remote",
+    duration: "May 2024 – June 2024",
+    description: "Developed a food app Sign-up/Login Page and Interactive Menu Design, gaining hands-on experience with modern frontend development practices.",
+    icon: "💻",
+    color: "#f59e0b",
+  },
+];
+
+export const education = [
+  {
+    degree: "B.E Computer Science",
+    institution: "National Engineering College",
+    location: "Kovilpatti, Tamil Nadu",
+    duration: "2022 – 2026",
+    score: "CGPA: 7.72",
+    icon: "🎓",
+  },
+  {
+    degree: "HSC (Class XII)",
+    institution: "Ravilla K.R.A Vidhyashram Mat. Hr. Sec. School",
+    location: "Kovilpatti",
+    duration: "2022",
+    score: "68%",
+    icon: "📚",
+  },
+  {
+    degree: "SSLC (Class X)",
+    institution: "Ravilla K.R.A Vidhyashram Mat. Hr. Sec. School",
+    location: "Kovilpatti",
+    duration: "2020",
+    score: "60%",
+    icon: "📖",
+  },
+];
+
+export const achievements = [
+  { icon: "🥇", title: "Gold Medal – Throwball", desc: "Won 1st place representing the college team", color: "#f59e0b" },
+  { icon: "🥈", title: "Silver Medals – Throwball", desc: "Won 2 silver medals in inter-college competitions", color: "#94a3b8" },
+  { icon: "🎨", title: "3rd Place – Tech Rangolam", desc: "Won 3rd place in Tech Rangolam, 1st Year", color: "#a855f7" },
+  { icon: "🌿", title: "NSS Active Member", desc: "Active contributor to National Service Scheme community events", color: "#22c55e" },
+  { icon: "🤝", title: "Tech Fest Volunteer", desc: "Organized events as part of the college tech fest team", color: "#3b82f6" },
+  { icon: "💡", title: "CSI Student Chapter", desc: "Member of the Computer Society of India student chapter", color: "#ef4444" },
+];
