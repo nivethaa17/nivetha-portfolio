@@ -147,7 +147,7 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="mb-2 section-tag">// category</div>
+              <div className="mb-2 section-tag"> category</div>
               <div className="mb-5">
                 <span
                   className="text-sm px-3 py-1 rounded-full"
@@ -157,10 +157,10 @@ export default function Projects() {
                 </span>
               </div>
 
-              <div className="mb-2 section-tag">// about</div>
+              <div className="mb-2 section-tag"> about</div>
               <p className="text-[var(--text-muted)] leading-relaxed mb-6 text-sm">{selected.fullDescription}</p>
 
-              <div className="mb-2 section-tag">// tech stack</div>
+              <div className="mb-2 section-tag"> tech stack</div>
               <div className="flex flex-wrap gap-2 mb-8">
                 {selected.tech.map((t) => (
                   <span
